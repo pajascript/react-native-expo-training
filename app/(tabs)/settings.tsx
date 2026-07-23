@@ -1,10 +1,11 @@
-import { Text, View } from "react-native";
+import SafeAreaView from "@/shared/components/ui/safe-area-view";
+import { Text } from "react-native";
 
 const Settings = () => {
     return (
-        <View>
+        <SafeAreaView className="flex-1 bg-background p-5">
             <Text>Settings</Text>
-        </View>
+        </SafeAreaView>
     )
 }
 
