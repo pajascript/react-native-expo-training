@@ -1,7 +1,7 @@
 @import "tailwindcss/theme.css" layer(theme);
 @import "tailwindcss/preflight.css" layer(base);
 @import "tailwindcss/utilities.css";
- 
+
 @import "nativewind/theme";
 
 @theme {
@@ -16,13 +16,6 @@
     --color-success: #16a34a;
     --color-destructive: #dc2626;
     --color-subscription: #8fd1bd;
-
-    --font-sans: sans-regular;
-    --font-sans-light: sans-light;
-    --font-sans-medium: sans-medium;
-    --font-sans-semibold: sans-semibold;
-    --font-sans-bold: sans-bold;
-    --font-sans-extrabold: sans-extrabold;
 
     --spacing-0: 0px;
     --spacing-1: 4px;
@@ -86,7 +79,7 @@
     }
 
     .home-add-icon {
-        @apply size-12;
+        @apply size-6;
     }
 
     .home-balance-card {
@@ -106,7 +99,7 @@
     }
 
     .home-balance-date {
-        @apply text-xl font-sans-medium text-white;
+        @apply text-xl font-sans-medium text-white/90;
     }
 
     .list-head {
@@ -126,7 +119,7 @@
     }
 
     .upcoming-card {
-        @apply mr-4 w-44 rounded-2xl border border-black/10 bg-background p-4;
+        @apply mr-4 w-40 rounded-2xl border border-black/10 bg-background p-4;
     }
 
     .upcoming-row {
@@ -134,7 +127,7 @@
     }
 
     .upcoming-icon {
-        @apply size-14;
+        @apply size-10;
     }
 
     .upcoming-price {

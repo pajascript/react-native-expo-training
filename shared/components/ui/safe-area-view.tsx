@@ -6,4 +6,5 @@ const SafeAreaView =
     Platform.OS === "web"
         ? View
         : styled(RNSafeAreaView);
+        
 export default SafeAreaView;
