@@ -1,4 +1,3 @@
-// import { ListHeadingProps } from "@/type";
 import { Text, TouchableOpacity, View } from "react-native";
 
 const ListHeading = ({ title } : ListHeadingProps) => {
